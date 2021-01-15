@@ -11,8 +11,8 @@ Instructions:
 3. run "make" command.
 
 4. run the program using the following command "sudo ./main.out -l <passwordLen> -n <decryptersNumber> -t <timeout>"
-	*-n|--num-of-decrypters – will determine how many decrypter threads will be created.
-	*-l|--password-length – number of characters that will be encrypted, the more characters will be encrypted the harder it will be for the decrypters. Must be a multiplication of 8.
-	*-t|--timeout(optional) – time is seconds until server regenerates a password if it didn’t.
+* -n|--num-of-decrypters – will determine how many decrypter threads will be created.
+* -l|--password-length – number of characters that will be encrypted, the more characters will be encrypted the harder it will be for the decrypters. Must be a multiplication of 8.
+* -t|--timeout(optional) – time is seconds until server regenerates a password if it didn’t.
 
 5. You can use the command "make clean" to clean the compilation outputs.
